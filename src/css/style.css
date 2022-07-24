@@ -1,0 +1,109 @@
+/* :root{
+    --head-text-size: 2rem;
+} */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    /* font-family: 'Edu TAS Beginner', cursive; */
+}
+
+.ct_form {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.ct_form_in4 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.ct_form_in4 i {
+    color: #46B5D1;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+
+}
+
+.head {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+
+.ct_box {
+    margin-left: 10rem;
+    display: flex;
+    margin-left: 20%;
+}
+
+.ct_box img {
+    max-width: 50%;
+}
+
+.ct_box div {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+span{
+    color: #46B5D1;
+}
+.ct_box textarea {
+    font-size: 1.5rem;
+}
+
+.ct_box_1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20rem;
+}
+
+
+
+input {
+    font-size: 1.5rem;
+    font-family: 'Edu TAS Beginner', cursive;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 0.5rem;
+}
+
+textarea {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.name {
+    margin-right: 5rem;
+}
+
+.button button {
+    background-color: #46B5D1;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+.button button:hover{
+    background-color: white;
+    color: #46B5D1;
+    border: 0.2rem solid black;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
