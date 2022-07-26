@@ -42,11 +42,12 @@ html {
 .ct_box {
     margin-left: 10rem;
     display: flex;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .ct_box img {
-    max-width: 50%;
+    max-width: 60%;
+    
 }
 
 .ct_box div {
@@ -61,12 +62,15 @@ span{
 }
 
 .ct_box_1 {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     padding-right: 20rem;
 }
 
-
+.ct_box_2{
+    display: flex;
+    margin-right: 2rem;
+}
 
 input {
     font-size: 1.5rem;
